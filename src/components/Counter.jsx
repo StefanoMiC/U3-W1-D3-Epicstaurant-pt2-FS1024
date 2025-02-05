@@ -11,7 +11,7 @@ class Counter extends Component {
   };
 
   render() {
-    console.log("THIS", this);
+    console.log("RENDER");
     return (
       <div className="text-center mb-4">
         {/* abbiamo collegato l'interfaccia allo stato */}

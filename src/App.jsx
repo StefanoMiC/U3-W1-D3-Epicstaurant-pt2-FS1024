@@ -1,6 +1,7 @@
 import "./App.css";
 // import Counter from "./components/Counter";
 import Home from "./components/Home";
+import ReservationForm from "./components/ReservationForm";
 import TopBar from "./components/TopBar";
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <>
       <TopBar title="EpicStaurant" claim="Niente secondi piatti" />
       {/* <Counter /> */}
-
+      <ReservationForm />
       <Home />
     </>
   );
